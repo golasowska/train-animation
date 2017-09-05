@@ -1,0 +1,409 @@
+body{
+  background-color:#c3e4e3;
+}
+
+/*SKY*/
+
+.sky-cloud{
+  position: absolute;
+  top: 100px;
+  left: 100px;
+}
+
+.sky-cloud-two{
+  position: absolute;
+  top: 100px;
+  left: 500px;
+}
+
+.sky-cloud-three{
+  position: absolute;
+  top: 100px;
+  left: 900px;
+}
+
+.sky-cloud-four{
+  position: absolute;
+  top: 100px;
+  left: 1300px;
+}
+
+.sky{
+  background: #fff;
+  z-index: -10;
+}
+
+.scloud-one{
+  position: absolute;
+  height: 50px;
+  width: 300px;
+  border-radius:25px;
+}
+
+.scloud-two{
+  position: absolute;
+  top: -50px;
+  left: 40px;
+  height: 100px;
+  width: 100px;
+  border-radius:50%;
+}
+
+.scloud-three{
+  position: absolute;
+  top: -90px;
+  left: 120px;
+  height: 140px;
+  width: 140px;
+  border-radius:50%;
+}
+
+/*GREEN */
+
+.grass{
+  position: absolute;
+  bottom: 0;
+  width: 150vw;
+  height: 40px;
+  background: #3c8557;
+}
+div .tree{
+  position: absolute;
+  border: 0;
+  left: 0;
+  width: 400px;
+}
+
+div .tree-two{
+  position: absolute;
+  border: 0;
+  left: 400px;
+  width: 400px;
+}
+
+div .tree-three{
+  position: absolute;
+  border: 0;
+  left: 800px;
+  width: 400px;
+}
+
+div .tree-four{
+  position: absolute;
+  border: 0;
+  left: 1200px;
+  width: 400px;
+}
+
+.crown{
+  position: absolute;
+  background: #3c8557;
+  border-radius: 50%;
+  width: 130px;
+  height: 130px;
+  z-index: -15;
+}
+
+.crown-one{
+  width: 100px;
+  height: 100px;
+  bottom: 400px;
+  left: 190px;
+}
+
+.crown-two{
+  bottom: 300px;
+  left: 111px;
+}
+
+.crown-three{
+  bottom: 300px;
+  left: 240px;
+}
+
+.crown-four{
+  bottom: 180px;
+  left: 111px;
+}
+
+.crown-five{
+  bottom: 180px;
+  left: 240px;
+}
+
+.crown-bottom{
+  height: 240px;
+  width: 120px;
+  bottom: 180px;
+  border-radius: 1px;
+  left: 182px;
+  z-index: -2;
+}
+
+.trunk{
+  position: absolute;
+  bottom: 0;
+  left: 220px;
+  width: 40px;
+  height: 180px;
+  background: #4f4040;
+  z-index: -15;
+}
+
+/*TRAIN*/
+
+.train{
+  position:absolute;
+  bottom: -70px;
+  right: -700px;
+  width:700px;
+  height:700px;
+  animation: train-go 12s infinite linear normal;
+}
+
+.front{
+  position:absolute;
+  width:300px;
+  height:200px;
+  top:300px;
+  left:120px;
+  box-shadow: 0 0 7px black;
+  border-radius:15px;
+  background-color:#1e446b;
+}
+
+.car {
+  position:absolute;
+  width:300px;
+  height:200px;
+  top:300px;
+  left:620px;
+  box-shadow: 0 0 7px black;
+  border-radius:15px;
+  background-color:#1e446b;
+}
+
+.car-two {
+  left:940px;
+}
+
+.chimney{
+  z-index:-1;
+  position:relative;
+  margin-top:-70px;
+  margin-left:66px;
+  width:60px;
+  height:100px;
+  background-color:#1e446b;
+  border-radius:15px;
+  box-shadow: 0 0 7px black;
+  animation: chimney-anim 1s infinite ease-in-out;
+}
+
+.chimney-thing{
+  position:absolute;
+  top:20px;
+  left:-10px;
+  width:80px;
+  height:20px;
+  background-color:#1e446b;
+  border-radius:15px;
+  box-shadow: 0 0 7px black;
+}
+
+.font-thing{
+  margin-top:60px;
+  margin-left:-100px;
+  width:0px;
+  height:0px;
+  border-top: 60px solid black;
+  border-bottom: 60px solid transparent;
+  border-right:60px solid black;
+  border-left:60px solid transparent;
+  transform:rotate(90deg);
+}
+
+.back{
+  position:absolute;
+  width:180px;
+  height:300px;
+  top:200px;
+  left:420px;
+  box-shadow: 0 0 7px black;
+  border-radius:15px;
+  background-color:#1e446b;
+}
+
+.roof{
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:-10px;
+  width:200px;
+  height:30px;
+  border-radius:15px;
+  background-color:#1e446b;
+  box-shadow: 0 0 7px black;
+}
+
+.bottom{
+  position:absolute;
+  width:480px;
+  height:20px;
+  top:490px;
+  left:120px;
+  box-shadow: 0 0 7px black;
+  border-radius:15px;
+  background-color:#1e446b;
+}
+
+.wheel{
+  float:right;
+  margin-right:50px;
+  width:100px;
+  height:100px;
+  background-color:#0d101d;
+  border-radius:50%;
+  box-shadow: 0 0 7px black;
+}
+
+.bottom-car{
+  position:absolute;
+  width:300px;
+  height:20px;
+  top:490px;
+  left:620px;
+  box-shadow: 0 0 7px black;
+  border-radius:15px;
+  background-color:#1e446b;
+}
+
+.btmcr-two{
+  left:940px;
+}
+
+.wheel-car{
+  float:right;
+  margin-right:33px;
+  width:100px;
+  height:100px;
+  background-color:#0d101d;
+  border-radius:50%;
+  box-shadow: 0 0 7px black;
+}
+
+.wheel-link{
+  position:absolute;
+  width:400px;
+  height:14px;
+  top:524px;
+  left:164px;
+  border-radius:15px;
+  background-color:#0d101d;
+  mix-blend-mode: normal;
+  box-shadow: 0 0 7px black;
+  animation: wheel-link-anim 1s infinite ease-in-out;
+}
+
+.cloud{
+  position:absolute;
+  width:80px;
+  height:60px;
+  top:160px;
+  left:200px;
+  border-radius:25px;
+  background-color:transparent;
+  animation: cloud-anim 2s infinite;
+}
+
+.cloud2{
+  position:absolute;
+  width:60px;
+  height:60px;
+  top:160px;
+  left:200px;
+  border-radius:25px;
+  background-color:transparent;
+  animation: cloud-anim 2s 1s infinite;
+}
+
+
+@keyframes chimney-anim {
+
+  0% {
+    margin-top:-70px;
+  }
+  50%{
+    margin-top:-60px;
+  }
+  100%{
+    margin-top:-70px;
+  }
+
+}
+
+@keyframes wheel-link-anim {
+
+  0% {
+    top:524px;
+    left:164px;
+  }
+  16.66%{
+    top:524px;
+    left:150px;
+  }
+  33%{
+    top:530px;
+    left:140px;
+  }
+  49.66%{
+    top:534px;
+    left:150px;
+  }
+  66%{
+    top:534px;
+    left:160px;
+  }
+  82.66%{
+    top:530px;
+    left:164px;
+  }
+  100%{
+    top:524px;
+    left:164px;
+  }
+
+}
+
+@keyframes cloud-anim {
+
+  0% {
+    top:160px;
+    left:200px;
+    background-color:transparent;
+  }
+  5%{
+    background-color:white;
+  }
+  15%{
+    top:120px;
+  }
+  50%{
+    background-color:transparent;
+    top:120px;
+    left:500px;
+  }
+  100%{
+    background-color:transparent;
+    top:160px;
+    left:200px;
+  }
+
+}
+
+@keyframes train-go {
+
+  100%{
+    transform: translate(-200vw);
+  }
+
+}
